@@ -419,7 +419,7 @@ header .header-wrap .progress-inner {
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index: 200;
+    z-index: 9000000;
     background-color: #e5485b;
     height: 70px;
     display: -webkit-box;
