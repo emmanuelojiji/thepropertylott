@@ -400,6 +400,8 @@ header .header-wrap .progress-inner {
 .billboard-right-wrap {
   -webkit-filter: drop-shadow(-1px 6px 10px rgba(50, 50, 0, 0.5));
           filter: drop-shadow(-1px 6px 10px rgba(50, 50, 0, 0.5));
+  -webkit-filter: none;
+          filter: none;
 }
 
 .progress-container {
