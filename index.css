@@ -413,7 +413,7 @@ header .header-wrap .progress-inner {
           align-items: center;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 500px) {
   .progress-container {
     position: fixed;
     left: 0;
@@ -462,7 +462,7 @@ header .header-wrap .progress-inner {
   transition: 1s ease;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 500px) {
   .bottom-pusher {
     display: block;
     width: 100%;
