@@ -20,6 +20,8 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 header {
@@ -460,6 +462,123 @@ header .header-wrap .progress-inner {
   min-height: 18px;
   -webkit-transition: 1s ease;
   transition: 1s ease;
+}
+
+.how-it-works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #3ea7d6;
+}
+
+.how-it-works .how-it-works-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how-it-works .card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media only screen and (max-width: 500px) {
+  .how-it-works .card-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.how-it-works .card-row-title {
+  margin-bottom: 70px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 3em;
+}
+
+.how-it-works .card {
+  background-color: white;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 500px) {
+  .how-it-works .card {
+    height: 8000px;
+  }
+}
+
+.how-it-works .card i {
+  font-size: 50px;
+  color: #ff5064;
+}
+
+.how-it-works .card .card-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.how-it-works .card p {
+  font-family: "Roboto";
+  color: #999999;
+}
+
+.how-it-works .card .number {
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 1000px;
+  background: #ff5064;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -20px;
 }
 
 @media only screen and (max-width: 500px) {
