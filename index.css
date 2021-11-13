@@ -470,6 +470,12 @@ header .header-wrap .progress-inner {
   background: #3ea7d6;
 }
 
+@media only screen and (max-width: 500px) {
+  .how-it-works {
+    padding-top: 50px;
+  }
+}
+
 .how-it-works .how-it-works-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
