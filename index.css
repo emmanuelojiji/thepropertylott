@@ -396,6 +396,7 @@ header .header-wrap .progress-inner {
 @media only screen and (max-width: 500px) {
   .how-it-works .card-row-title {
     margin-bottom: 25px;
+    font-size: 32.5px;
   }
 }
 .how-it-works .card {
