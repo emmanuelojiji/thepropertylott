@@ -47,6 +47,11 @@
 .billboard .img-container {
   position: relative;
 }
+@media screen and (max-width: 875px) {
+  .billboard .img-container {
+    display: none;
+  }
+}
 .billboard .img-container .speech {
   position: absolute;
   right: -50px;
