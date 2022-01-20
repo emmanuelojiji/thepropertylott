@@ -3,21 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>ThePropertyLott</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Property Lott</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="global.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -28,108 +17,122 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="header-wrap">
+      <div class="page-width header-wrap">
         <span class="logo"
-          >ThePropertyLott<span style="margin-left: 1px">.</span></span
+          ><span class="p">P</span
+          ><span class="logo-right"
+            >roperty<span class="black">Lott</span></span
+          ></span
         >
-        <div class="progress-container">
-          <i class="fas fa-trophy"></i>
-          <div id="progress-bar" class="all-rounded">
-            <div id="progress-bar-percentage" class="all-rounded"></div>
-          </div>
-        </div>
+
+        <nav>
+          <a>Home</a>
+          <a>How it works</a>
+          <a>Contact</a>
+          <button class="btn-main">Get Started</button>
+        </nav>
       </div>
     </header>
 
     <section class="billboard">
-      <div class="billboard-left">
-        <img src="dancing.gif" alt="" />
-      </div>
+      <div class="billboard-wrap page-width">
+        <div class="billboard-left">
+          <h1>We've just cut the cost of getting on the property ladder.</h1>
+          <p>Sign up now and get on the property ladder sooner than you think.</p>
 
-      <div class="billboard-right-wrap">
-        <div class="billboard-right">
-          <div class="billboard-right-top"></div>
-          <div class="billboard-right-bottom"></div>
-          <div class="billboard-right-content">
-            <h1>Rent got you down?</h1>
+          <div class="cta-container">
+            <span class="at">@</span>
+            <input type="text" placeholder="Email address" />
+            <button class="btn-main">Sign Up</button>
+          </div>
+        </div>
+
+        <div class="img-container billboard-right">
+          <div class="plane-container">
+            <img src="/plane.png" alt="" class="plane" />
+          </div>
+          <div class="speech">
+            <p>Win amazing prizes!</p>
+          </div>
+          <img src="/billboard-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works page-width">
+      <h2 class="title">How it works</h2>
+
+      <div class="column-wrap">
+        <div class="column">
+          <div class="img-container">
+            <img src="/dice.png" alt="" />
+          </div>
+
+          <div class="column-text">
+            <h3 class="column-title">Select your 6 lucky numbers</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              ornare at urna a euismod. Nulla condimentum metus tellus,
-              fringilla dignissim mauris venenatis vel. Quisque at aliquam
-              neque, vel suscipit risus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+              eros in neque luctus volutpat. Phasellus lorem neque.
             </p>
-            <form>
-            <div class="button-input-overflow">
-              <input
-                type="email"
-                class="subscribe-input"
-                placeholder="Enter Email Addresss"
-                required
-              />
-              <button class="sign-up-button">
-                <i class="fas fa-play"></i> SIGN UP
-              </button>
-            </div>
-
-            <button type="submit" class="submit-button"><i class="fas fa-check"></i>SIGN UP</button>
           </div>
-        </form>
+        </div>
+
+        <div class="column">
+          <div class="img-container">
+            <img src="/money.png" alt="" />
+          </div>
+
+          <div class="column-text">
+            <h3 class="column-title">Match numbers to win</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+              eros in neque luctus volutpat. Phasellus lorem neque.
+            </p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="img-container">
+            <img src="/gift.png" alt="" />
+          </div>
+
+          <div class="column-text">
+            <h3 class="column-title">Watch weekly live draw on socials</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+              eros in neque luctus volutpat. Phasellus lorem neque.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="how-it-works">
-      <div class="how-it-works-wrap page-width">
-        <h2 class="card-row-title">How It Works</h2>
-
-        <p class="desc">ThePropQuiz is super easy to play. Eeveryday at 7pm we host a live trivia and ask you 12 brain teasing questions which cover a wide range of topics. From sport and history, to music and movies. So get ready, sharpen your skills, and come play with us every day!</p>
-
-        <div class="card-row">
-
-        <div class="card">
-          <div class="number">
-            1
-          </div>
-         
-          <i class="fas fa-brain"></i>
-          <h3 class="card-title">10 Brain Teasing Questions</h3>
-          <p>You'll have just 10 seconds to answer each question, so remember to think fast.</p>
-        </div>
-
-        <div class="card">
-
-          <div class="number">
-            2
-          </div>
-         
-          <i class="fas fa-money-bill-wave"></i>
-          <h3 class="card-title">Daily Prize Pot</h3>
-          <p>Answer all 12 questions correctly and you'll win a share of our prize pot of up to £500. It's that simple.</p>       
-        </div>
-
-        <div class="card">
-          <div class="number">
-            3
-          </div>
-          <i class="fas fa-award"></i>
-          <h3 class="card-title">Weekly Rent Jackpot</h3>
-          <p>For every question you answer correctly on our daily trivia, you'll be entered into our weekly draw where one lucky person has their rent paid for the year.</p>       
-        </div>
+    <section class="cta page-width">
+      <h2>Sign up now and get on the property ladder sooner than you think.</h2>
+      <div class="cta-container">
+        <span class="at">@</span>
+        <input type="text" placeholder="Email address" />
+        <button class="btn-main">Sign Up</button>
       </div>
-      </div>
-
+    </div>
     </section>
 
-   
-    
-    <div class="bottom-pusher"></div>
+    <footer class="footer page-width">
+      <span>PropertyLott 2022</span>
+    </footer>
+
   </body>
 </html>
