@@ -43,6 +43,8 @@
   color: #191919;
   margin-top: 30px;
   margin-bottom: 40px;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 .billboard .billboard-right {
   flex: 1;
