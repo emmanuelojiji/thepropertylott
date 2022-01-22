@@ -27,7 +27,7 @@
   width: 100%;
 }
 .billboard h1 {
-  text-transform: uppercase;
+  font-weight: 700;
 }
 @media screen and (max-width: 875px) {
   .billboard h1 {
