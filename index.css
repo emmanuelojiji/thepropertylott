@@ -50,7 +50,7 @@
 .billboard .billboard-left p {
   color: #191919;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   font-size: 1.2em;
   font-weight: 600;
   text-align: center;
@@ -60,6 +60,9 @@
   .billboard .billboard-left p {
     font-size: 0.9em;
   }
+}
+.billboard .billboard-left .btn-main {
+  margin-bottom: 50px;
 }
 .billboard .billboard-right {
   flex: 1;
