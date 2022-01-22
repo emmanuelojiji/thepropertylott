@@ -33,14 +33,13 @@
 @media screen and (max-width: 875px) {
   .billboard h1 {
     line-height: 50px;
-    text-align: center;
+    text-align: left;
   }
 }
 .billboard .billboard-left {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 @media screen and (max-width: 875px) {
   .billboard .billboard-left {
@@ -53,7 +52,7 @@
   margin-bottom: 15px;
   font-size: 1.2em;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   line-height: 25px;
 }
 @media screen and (max-width: 875px) {
@@ -63,6 +62,7 @@
 }
 .billboard .billboard-left .btn-main {
   margin-bottom: 50px;
+  align-self: flex-start;
 }
 .billboard .billboard-right {
   flex: 1;
@@ -71,11 +71,6 @@
 }
 .billboard .img-container {
   position: relative;
-}
-@media screen and (max-width: 875px) {
-  .billboard .img-container {
-    display: none;
-  }
 }
 .billboard .img-container .speech {
   position: absolute;
