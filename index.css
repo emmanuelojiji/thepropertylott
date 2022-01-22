@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 875px) {
   .billboard h1 {
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
   }
 }
