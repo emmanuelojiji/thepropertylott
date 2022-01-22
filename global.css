@@ -12,14 +12,15 @@ body {
 }
 
 body {
-  padding-left: 5%;
-  padding-right: 5%;
+  background: #fcefe7;
 }
 
 .page-width {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 button {
@@ -36,7 +37,7 @@ h1 {
 }
 @media screen and (max-width: 875px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
@@ -55,7 +56,7 @@ p {
 }
 
 header {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
