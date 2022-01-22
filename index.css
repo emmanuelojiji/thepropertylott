@@ -38,6 +38,9 @@
 }
 .billboard .billboard-left {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (max-width: 875px) {
   .billboard .billboard-left {
@@ -92,6 +95,10 @@
 }
 .billboard .img-container img {
   max-width: 100%;
+}
+.billboard .iphone {
+  max-width: 200px;
+  width: 100%;
 }
 
 .how-it-works {
