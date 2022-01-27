@@ -132,7 +132,11 @@
   bottom: 10px;
 }
 .how-it-works .title {
+  margin-bottom: 5px;
+}
+.how-it-works p {
   margin-bottom: 50px;
+  font-weight: 500;
 }
 .how-it-works .column-wrap {
   display: flex;
@@ -163,6 +167,7 @@
 }
 .how-it-works .column-title {
   font-family: "Open Sans";
+  color: #fe8d01;
 }
 .how-it-works .column-text {
   padding-left: 20px;
