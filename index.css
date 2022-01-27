@@ -54,6 +54,7 @@
   font-weight: 600;
   text-align: left;
   line-height: 25px;
+  font-weight: bold;
 }
 @media screen and (max-width: 875px) {
   .billboard .billboard-left p {
