@@ -210,4 +210,15 @@ footer {
   color: white;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.cta {
+  text-align: center;
+}
+.cta h2 {
+  color: #fe8d01;
+  margin-bottom: 20px;
+}
+.cta p {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=index.css.map */
