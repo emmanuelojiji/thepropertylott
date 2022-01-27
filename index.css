@@ -64,6 +64,7 @@
 .billboard .billboard-left .btn-main {
   margin-bottom: 50px;
   align-self: flex-start;
+  border-radius: 1000px;
 }
 .billboard .billboard-right {
   flex: 1;
@@ -114,7 +115,6 @@
   font-size: 16px;
   color: #fe8d01;
   padding-left: 12px;
-  border-radius: 0;
 }
 .billboard input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
