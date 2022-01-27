@@ -12,14 +12,15 @@ body {
 }
 
 body {
-  padding-left: 5%;
-  padding-right: 5%;
+  background: #fcefe7;
 }
 
 .page-width {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 button {
@@ -54,9 +55,8 @@ p {
 }
 
 header {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   padding-top: 25px;
-  padding-bottom: 25px;
 
   .header-wrap {
     display: flex;
@@ -85,7 +85,7 @@ header {
   nav {
     a {
       padding: 16px;
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-weight: 700;
       font-size: 14px;
 
@@ -99,12 +99,15 @@ header {
 .btn-main {
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 10px;
+width: 70%;
   background: #fe8d01;
-  border-radius: 5px;
+
   color: white;
   height: 50px;
   border: 0;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .cta-container {
@@ -137,6 +140,5 @@ header {
     position: relative;
     z-index: 5;
     width: 100%;
-
   }
 }
