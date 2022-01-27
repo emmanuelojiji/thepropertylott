@@ -188,4 +188,18 @@ footer {
 
 .emoji {
   font-size: 30px;
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  background: #fe8d01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9000px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=index.css.map */
